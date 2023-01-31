@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Sign Up</title>
+<script script type="text/javascript" src="Picture\Javascript\processdata.js"></script>
+</head>
+
+<body style="background-color:MistyRose;">
+<H3 style="background-color:White;" Align="right">
+. <A HREF="main.html">Home</A> .
+<A HREF="login.html">Login</A>/<A HREF="register.html">Sign Up</A> . 		
+<A HREF="Aboutus.html" Align="Right">About WCShop</A> . 
+</H3>
+<a href="main.html">
+<p Align="Center"><IMG SRC="Picture\logo.png" alt="main.html" Width="200p" Height="150p"></p></a>
+<hr style="width:99%">
+<br>
+<h1 align="center" style="background-color:Tomato; color:white"><b><i>Sign Up</b></i></h1>
+<p Align="Center"><I>Already have an account? <A HREF="Login.html">Login</A> here.</I></p>
+
+<form  align="Center" name ="subscribe" id="subscribe_frm" action="#"><div>
+<label for="rname"><B>User Name : </B>
+			<input type="text" name="rname" ID="txt_rname" Size="25" placeholder="Create Your User Name"><br><br>
+
+<label for="remail"><b>Email : </b></label>
+	<input type="text" name="remail" id="txt_email" placeholder="someone@example.com" Size="25"><br><br>
+
+<label for="TelNo"><B>Phone No. : </B></label>
+	<input TYPE="text" Name="TelNo" ID="Tel_no" placeholder="eg:01XXXXXXXXX" min="10" max="11 "><br><br>
+
+	<label for="gender"><B>Gender : </B></label>
+<select name="gender" id="slt_gender">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			</select><br><br>
+
+	<label for="raddress"><B>Address : </B></label>
+<textarea Name="raddress" id="txt_address" rows="2" cols="40" wrap="virtual" placeholder="Enter your address"></textarea><br><br>
+
+<lable for="rstate"><B>State : </B></label>
+<select name="rstate" id="rstate">
+				<option value="Perlis">Perlis</option>
+				<option value="Kedah">Kedah</option>
+                        <option value="P_Pinang">Pulau Pinang</option>
+                        <option value="Perak">Perak</Option> 
+                        <option value="Terengganu">Terengganu</Option> 
+                        <option value="Kelantan">Kelantan</Option> 
+                        <option value="Pahang">Pahang</Option> 
+                        <option value="Selangor">Selangor</Option> 
+                        <option value="Melaka">Melaka</Option> 
+                        <option value="Sabah">Sabah</Option> 
+                        <option value="Sarawak">Sarawak</Option>
+                        <option value="Johor">Johor</Option>  
+                        <option value="Negeri_9">Negeri Sembilan</Option> 
+				</select>
+
+<label for="rpostcode"><B>Postcode : </B></label>
+<input type="text" id="rpostcode" placeholder="Enter postcode" Size="15"><br><br>
+
+<label for="rpassword"><B>Password : </B></label>
+<input type="text" id="rpassword" placeholder="Create Your Password" Size="40"><br><br>
+
+<input type="checkbox" id="agreement" name="agreement" value="agreement">
+<label for="agreement"> By registering an account, I have read and agreed with the Terms & Condition also Privacy policy from WC Shop.</label><br><br>
+
+<P Align=Center>
+    <input type="submit" value="Submit" onclick="processFormData();" >
+    <input type="reset" value="Reset" >
+</P>
+</div></form>
+
+</body> 
+
+</html>

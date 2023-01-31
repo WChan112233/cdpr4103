@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Checkout</title>
+<script script type="text/javascript" src="Picture\Javascript\checkout.js"></script>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+</head>
+
+<body style="background-color:MistyRose;">
+
+<H3 style="background-color:White;" Align="right">
+. <A HREF="main.html">Home</A> .
+<A HREF="login.html">Login</A>/<A HREF="register.html">Sign Up</A> . 		
+<A HREF="Aboutus.html" Align="Right">About WCShop</A> . 
+</H3>
+
+<a href="main.html">
+<p Align="Center"><IMG SRC="Picture\logo.png" alt="main.html" Width="200p" Height="150p"></p></a>
+</body>
+<h1 align="center" style="background-color:White; color:Tomato"><b>CheckOut</b></h1>
+<h3 style="background-color:Tomato; color:white;"><B>Delivery Address</B></h3>
+
+
+<form align="Center" name ="subscribe" id="subscribe_frm" action="#"><div>
+<label for="cname"><B>Name : </B></label>
+<input type="text" id="cname" placeholder="Full Name" Size="25"><br><br>
+<lable for="cphone"><B>Phone Number : </B></label>
+<input for="text" id="chone" placeholder="eg:01XXXXXXXXX"><br><br>
+<label for="caddress"><B>Address : </B></label>
+<textarea name="comments" id="caddress" rows="2" cols="40" wrap="virtual">Enter your address</textarea><br><br>
+<lable for="cstate"><B>State : </B></label>
+<select name="cstate" id="cstate">
+				<option value="Perlis">Perlis</option>
+				<option value="Kedah">Kedah</option>
+                        <option value="P_Pinang">Pulau Pinang</option>
+                        <option value="Perak">Perak</Option> 
+                        <option value="Terengganu">Terengganu</Option> 
+                        <option value="Kelantan">Kelantan</Option> 
+                        <option value="Pahang">Pahang</Option> 
+                        <option value="Selangor">Selangor</Option> 
+                        <option value="Melaka">Melaka</Option> 
+                        <option value="Sabah">Sabah</Option> 
+                        <option value="Sarawak">Sarawak</Option>
+                        <option value="Johor">Johor</Option>  
+                        <option value="Negeri_9">Negeri Sembilan</Option> 
+				</select>
+<label for="cpostcode"><B>Postcode : </B></label>
+<input type="text" id="cpostcode" placeholder="Enter postcode" Size="15"><br><br>
+</form>
+
+<h3 style="background-color:Tomato; color:white;"><b>Payment Method</b></h3>
+<form>
+
+<input type="radio" name="ccard" id="cdcard">Credit / Debit Card<br><br>
+<label for="ccname"><B>Name on Card : </B></label>
+<input type="text" id="ccname" placeholder="Full Name" Size="25"><br><br
+<lable for="cno"><B>Card Number: </B></label>
+<input for="text" id="cno" placeholder="eg:1111-2222-3333-4444"><br><br>
+<lable for="expmon"><B>Exp Month :</B></label>
+<select name="expmon" id="expmon">
+				<option value="1">January</option>
+				<option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</Option> 
+                        <option value="5">May</Option> 
+                        <option value="6">June</Option> 
+                        <option value="7">July</Option> 
+                        <option value="8">August</Option> 
+                        <option value="9">September</Option> 
+                        <option value="10">October</Option> 
+                        <option value="11">November</Option>
+                        <option value="12">December</Option>  
+				</select><br><br>
+<lable for="expyear"><B>Exp Year: </B></label>
+<input for="text" id="expyear" placeholder="eg:20XX"><br><br>
+
+<lable for="cvv"><B>CVV: </B></label>
+<input for="text" id="cvv" placeholder="3 digits"><br><br>
+
+
+<input type="radio" name"obank" value="onbank">Online Banking / FPX<br><br>
+<lable for="fpx"><B>Type of Bank :</B></label>
+<select name="fpx" id="fpx">
+				<option value="mbb">Maybank2U</option>
+				<option value="rhb">RHB Now</option>
+                        <option value="cimb">CIMB Click</option>
+                        <option value="pbb>Public Bank</Option> 
+                        <option value="hlb">Hong Leong Connect</Option> 
+                        <option value="amb">Ambank</Option> 
+                        <option value="bi">Bank Islam</Option> 
+                        <option value="ocbc">OCBC Online</Option> 
+                        <option value="bsn">MyBSN</Option> 
+				</select><br><br>
+                  </form>
+
+<form action="Alert.html" align="center"><Input type="Submit" value="Place Order">
+
+</form>
+<hr style="width:100%">
+</div>
+<p align="center">CDPR 4130 © All Rights Reserved.</p>
+</body>
+</html>
